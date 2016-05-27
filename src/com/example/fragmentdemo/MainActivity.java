@@ -37,8 +37,12 @@ public class MainActivity extends Activity implements OnCheckedChangeListener {
 			beginTransaction.commit();
 			break;
 		case R.id.third:
+			Intent intent3 = new Intent(MainActivity.this, MainActivity3.class);
+			startActivity(intent3);
 			break;
 		case R.id.fourth:
+			Intent intent4 = new Intent(MainActivity.this, MainActivity4.class);
+			startActivity(intent4);
 			break;
 		}
 	}
